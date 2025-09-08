@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Badminton World</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+
+ <!-- Navbar -->
+<header class="bg-white shadow-md">
+  <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+    <!-- Logo -->
+    <img src="assets/img/logo1.png" alt="Site logo with shuttlecock" class="h-15">
+    <!-- Nav Links -->
+    <ul class="flex space-x-6 text-lg font-medium text-[#0C3B2E]">
+      <li><a href="index.html" class="hover:text-[#FFD600]">Home</a></li>
+      <li><a href="fun-facts.html" class="hover:text-[#FFD600]">Fun Facts</a></li>
+      <li><a href="equipment.html" class="hover:text-[#FFD600]">Equipment</a></li>
+      <li><a href="players.html" class="hover:text-[#FFD600]">Players</a></li>
+      <li><a href="contact.html" class="hover:text-[#FFD600] border-b-4 border-[#FFD600] ">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <img src="assets/img/contactHero.jpg" alt="Badminton net close-up" class="w-full h-[400px] object-cover">
+    <div class="absolute inset-0 bg-[#0C3B2E]/80 bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Get in Touch</h1>
+      <p class="text-lg md:text-xl max-w-2xl">
+        Have questions or want to join a game? Reach out to us and we’ll get back to you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <main class="max-w-4xl mx-auto py-12 px-6">
+    <h2 class="text-2xl font-bold text-center mb-6 text-[#0C3B2E]">Contact Form</h2>
+    <form action="#" method="POST" class="bg-white shadow-lg rounded-lg p-8 space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+        <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+        <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-yellow-400 text-#0C3B2E] px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
+        Send Message
+      </button>
+    </form>
+  </main>
+
+<!-- Footer -->
+<footer class="bg-[#0C3B2E] text-white mt-auto">
+  <div class="container mx-auto px-6 py-6">
+    <p class="text-center">© 2025 Badminton Hobby Site. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

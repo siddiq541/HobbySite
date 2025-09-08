@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts - Badminton</title>
+    <link href="styles.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+ <!-- Navbar -->
+<header class="bg-white shadow-md">
+  <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+    <!-- Logo -->
+    <img src="assets/img/logo1.png" alt="Site logo with shuttlecock" class="h-15">
+    <!-- Nav Links -->
+    <ul class="flex space-x-6 text-lg font-medium text-[#0C3B2E]">
+      <li><a href="index.html" class="hover:text-[#FFD600]">Home</a></li>
+      <li><a href="fun-facts.html" class="hover:text-[#FFD600] border-b-4 border-[#FFD600]">Fun Facts</a></li>
+      <li><a href="equipment.html" class="hover:text-[#FFD600]">Equipment</a></li>
+      <li><a href="players.html" class="hover:text-[#FFD600]">Players</a></li>
+      <li><a href="contact.html" class="hover:text-[#FFD600]">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <!-- Hero Section -->
+  <section class="relative">
+    <img src="assets/img/funFactsHero.jpg" alt="Badminton net close-up" class="w-full h-[400px] object-cover">
+    <div class="absolute inset-0 bg-[#0C3B2E]/80 bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4">
+
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Fun Facts About Badminton</h1>
+        <p class="text-lg md:text-xl max-w-2xl">Discover interesting and surprising facts about your favorite sport!</p>
+    </div>
+  </section>
+    <!-- Fun Facts Section -->
+<section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+
+    <!-- Left Column: 3 Fact Boxes -->
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">1. Fastest Racket Sport</h2>
+        <p>The shuttlecock can travel over 300 km/h in professional games!</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">2. Olympic Sport</h2>
+        <p>Badminton has been an Olympic sport since 1992.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">3. Origin of the Name</h2>
+        <p>Named after Badminton House in England.</p>
+      </div>
+    </div>
+
+    <!-- Center Column -->
+    <div class="relative flex justify-center items-center h-[22rem] overflow-visible">
+      <!-- Background Vector -->
+      <img src="assets/img/factsSectionBG.png" alt="Vector Background"
+           class="absolute top-0 left-0 w-full h-full object-contain z-0">
+
+      <!-- Foreground Player -->
+      <img src="assets/img/factsSectionPlayer.png" alt="Badminton Player"
+           class="relative z-10 w-auto h-full object-contain">
+    </div>
+
+    <!-- Right Column: 3 Fact Boxes -->
+    <div class="space-y-6">
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">4. Lightweight Shuttlecock</h2>
+        <p>Weighs just 4.74–5.50 grams—super light and fast!</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">5. International Popularity</h2>
+        <p>Huge in Asia—especially China, Indonesia, and India.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="font-bold text-xl mb-2 text-[#0C3B2E]">6. Record-Breaking Match</h2>
+        <p>The longest match lasted 124 minutes in the 2016 Olympics!</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#0C3B2E] text-white mt-auto">
+  <div class="container mx-auto px-6 py-6">
+    <p class="text-center">© 2025 Badminton Hobby Site. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
